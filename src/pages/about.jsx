@@ -1,3 +1,10 @@
-export default About = () => {
-    <div>About Us</div>
+import * as React from 'react';
+
+
+export default function About () {
+  return (
+    <div>
+      About Us
+    </div>
+  );
 }
